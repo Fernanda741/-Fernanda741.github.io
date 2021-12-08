@@ -1,0 +1,19 @@
+.design,
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+span,
+.correto {
+    display: none;
+}
+
+.aparece {
+    display: inline-block;
+    border-radius: 25px;
+    width: 19px;
+    height: 19px;
+    background-color: green;
+    border: 2px solid black;
+}

@@ -1,0 +1,106 @@
+<!-- DEFINIÇÕES DA 1 PAG:
+Página de Boas vindas...
+* Caixa para coletar o nome do usuário;
+*Inserir botãoa iniciar o questionário (Clique aqui para iniciar seu teste de inglês )
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
+
+https://www.devmedia.com.br/css-seletores/40729-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Teste de Inglês</title>
+
+    <meta name="description" content="Survey">
+    <meta name="author" content="Luke Lehane">
+
+    <link rel="stylesheet" href="/styles">
+
+</head>
+
+<body>
+    <header>
+        <h1>Teste de Inglês</h1>
+    </header>
+
+    <!-- quando for pegar o valor do nome da pessoa coloca .value  -->
+
+    <!-- elemento.style.display = 'none' -->
+
+    <section class="wellcome">
+
+
+    </section>
+
+
+    <main style="display: none;">
+        <div class="container">
+
+
+            <div class="design">
+                <h4>Selecione a frase correta em Inglês: "Meu sonho tem um nome "Laboratória"</h4>
+                <div>
+                    <input type="radio" name="quest" id='respota1'>
+                    <label for="respota1">
+                            My drean has a name Laboratória
+                        </label>
+                </div>
+                <div>
+                    <input type="radio" name="quest" id='respota2'>
+                    <label for="respota2">
+                            My drean have a name Laboratória
+                        </label>
+                </div>
+                <div>
+                    <span></span>
+                    <input type="radio" name="quest" id='respota3'>
+                    <label for="respota3">
+                            Your drean have a name Laboratória
+                        </label>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="design">
+            <h4>Selecione a frase correta em Inglês: "Meu sonho tem um nome "Laboratória"
+            </h4>
+            <div>
+
+                <input type="radio" name="quest1" id='respota1'>
+                <label for="respota1">
+                        My drean has a name Laboratória
+                    </label>
+            </div>
+            <div>
+                <input type="radio" name="quest1" id='respota2'>
+                <label for="respota2">
+                        My drean have a name Laboratória
+                    </label>
+            </div>
+            <div>
+                <span></span>
+                <input type="radio" name="quest1" id='respota3'>
+                <label for="respota3">
+                        Your drean have a name Laboratória
+                    </label>
+            </div>
+
+        </div>
+
+
+        </div>
+
+
+        <button id='btn-verify'>Verificar Resposta</button>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
