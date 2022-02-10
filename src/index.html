@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE">
+  <meta name="viewport" content="width=device">
+  <title>Cifra de César</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Secret Report</h1>
+    <p class="msg1">Your space to send and translate coded menssages of your meeting.</p>
+  </header>
+
+  <main>
+    <section class="offset">
+      <input type="number" id="offset" min="0" max="25" value="1" required>
+      <h2>Enter your secret key</h2>
+    </section>
+
+    <section id="container">
+      <div class="text-content">
+        <div class="textbox2">
+
+          <textarea id="message" placeholder=" Write here" cols="60" rows="8"></textarea>
+        </div>
+
+        <div class="textbox2">
+
+          <textarea id="result" cols="60" rows="8"></textarea>
+        </div>
+      </div>
+      <div class="text-box">
+        <label>Translated</label>
+        <label>Encode</label>
+      </div>
+
+      <div class="button">
+        <button type="submit" id="btnEncode">ENCODE</button>
+        <button type="submit" id="btnDecode">DECODE</button>
+        <button type="reset" id="btnClear">CLEAR</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
